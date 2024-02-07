@@ -1,39 +1,9 @@
-<!-- <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <div class="d-flex justify-content-center align-items-center vh-100">
-      <div class="container my-5 text-center">
-        <h1>Hello, world!</h1>
-        <div class="col-lg-8 px-0 text-center mx-auto">
-          <p class="fs-5 text-center">You've successfully loaded up the Bootstrap starter example. It includes <a href="https://getbootstrap.com/">Bootstrap 5</a> via the <a href="https://www.jsdelivr.com/package/npm/bootstrap">jsDelivr CDN</a> and includes an additional CSS and JS file for your own code.</p>
-          <p>Feel free to download or copy-and-paste any parts of this example.</p>
-    
-          <a id="Yes" class="btn btn-primary">Yes</a>
-          <a id="retry" class="btn btn-secondary">No</a>
-        </div>
-      </div>
-    </div>
-    
-    
-    
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="main.js"></script>
-  </body>
-</html> -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Valentine's day 💘</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
   </head>
@@ -42,22 +12,23 @@
       <div class="container my-5 text-center">
         
         <div class="col-lg-8 px-0 text-center mx-auto">
-          <img src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif" alt="">
+          <img src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif" alt=""class="img-fluid">
 
           <h1>Will you be my valentine ?</h1>
-          <a id="Yes" class="btn btn-success">Yes</a>
-          <a id="retry" class="btn btn-danger">No</a>
+          <a id="Yes" class="btn btn-success">Yes 😍</a>
+          <a id="retry" class="btn btn-danger">No ☹️</a>
         </div>
       </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="main.js"></script>
+    <!-- <script src="main.js"></script> -->
     <script>
       document.addEventListener('DOMContentLoaded', function () {
         const retryButton = document.getElementById('retry');
         const yesButton = document.getElementById('Yes');
-        const texts = ["No", "Are you sure?", "Really sure?", "Are you positive???", "Pookie please", "Just think about it", "If you say no, I'll be very sad", "I'll be very very sad", "I'll be very very very sad", "I'll be very very very very sad", "Ok fine, I'll stop asking...", "Just kidding, PLEASE SAY YES", "I'll be very very very very very sad", "You're breaking my heart ;("];
+        // const texts = ["No ", "Are you sure? ", "Really sure? ", "Are you positive??? ", "Pookie please ", "Just think about it ", "If you say no, I'll be very sad ", "I'll be very very sad ", "I'll be very very very sad ", "I'll be very very very very sad ", "Ok fine, I'll stop asking... ", "Just kidding, PLEASE SAY YES ", "I'll be very very very very very sad ", "You're breaking my heart"];
+const texts = ["No ☹️", "Are you sure? 🥹", "Really sure? 😭", "Are you positive??? 🥹", "Pookie please 🥹", "Just think about it ☹️", "If you say no, I'll be very sad ☹️", "I'll be very very sad ☹️", "I'll be very very very sad 😖", "I'll be very very very very sad 😖", "Ok fine, I'll stop asking... 😤", "Just kidding, PLEASE SAY YES 🥹", "I'll be very very very very very sad 😖", "You're breaking my heart 💔"];
 
         let currentIndex = 1;
         let buttonSize = getComputedStyle(yesButton).getPropertyValue('font-size');
@@ -79,7 +50,7 @@
           document.querySelector('img').src = "https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif";
 
           // Change text
-          document.querySelector('h1').textContent = "Okay yaaaayyyyyy!!!";
+          document.querySelector('h1').textContent = "Okay yaaaayyyyyy!!! 🥳🎉🎊";
 
           // Remove buttons
           retryButton.style.display = 'none';
